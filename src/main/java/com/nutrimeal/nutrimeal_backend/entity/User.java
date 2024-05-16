@@ -37,7 +37,7 @@ public class User {
     private String avatar;
 
     @Column(name = "gender")
-    private boolean gender;
+    private Boolean gender;
 
     @Column(name = "dob")
     private Date dob;
